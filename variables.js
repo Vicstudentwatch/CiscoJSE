@@ -26,3 +26,33 @@
 const greetings = "I";
 console.log(greetings);
 
+//program block
+
+let count;
+console.log(count);
+
+{
+    let weight = 33;
+    count = 1;
+    console.log(count,weight);
+}
+
+count = count + 1;
+console.log(count);
+
+
+//var
+var globalGreeting = "Good ";
+   
+function testFunction() {
+    var localGreeting = "Morning ";
+    console.log("function:");
+    console.log(globalGreeting);
+    console.log(localGreeting);
+}
+   
+testFunction();
+   
+console.log("main program:");
+console.log(globalGreeting);
+// console.log(localGreeting); 
