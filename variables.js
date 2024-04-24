@@ -28,7 +28,7 @@ console.log(greetings);
 
 //program block
 
-let count;
+let count=100;
 console.log(count);
 
 {
@@ -55,4 +55,12 @@ testFunction();
    
 console.log("main program:");
 console.log(globalGreeting);
-// console.log(localGreeting); 
+// console.log(localGreetinglet counter = 100;
+
+
+//Variable shadowing
+{
+    let count = 200;
+    console.log(count); 
+}
+console.log(count);
