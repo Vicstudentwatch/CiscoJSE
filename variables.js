@@ -65,11 +65,7 @@ console.log(globalGreeting);
 }
 console.log(count);
 
-///Quiz
-// Rose – unit price: 8 , quantity: 70 , value: 560
-// Lily – unit price: 10 , quantity: 50 , value: 500
-// Tulip – unit price: 2 , quantity: 120 , value: 240
-// Total: 1300
+///1stQuiz
 
 const roseUnitPrice = 8;
 const lilyUnitPrice = 10;
