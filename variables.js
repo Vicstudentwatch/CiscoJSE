@@ -64,3 +64,29 @@ console.log(globalGreeting);
     console.log(count); 
 }
 console.log(count);
+
+///Quiz
+// Rose – unit price: 8 , quantity: 70 , value: 560
+// Lily – unit price: 10 , quantity: 50 , value: 500
+// Tulip – unit price: 2 , quantity: 120 , value: 240
+// Total: 1300
+
+const roseUnitPrice = 8;
+const lilyUnitPrice = 10;
+const tulipUnitPrice = 2;
+
+let roseQuantity = 70;
+let lilyQuantity = 50;
+let tulipQuantity = 120;
+
+roseQuantity = roseQuantity - 30;
+lilyQuantity = lilyQuantity - 20;
+
+let roseValue = roseQuantity * roseUnitPrice;
+let lilyValue = lilyQuantity * lilyUnitPrice;
+let tulipValue = tulipQuantity * tulipUnitPrice;
+
+console.log("Rose – unit price: " + roseUnitPrice ," quantity: " + roseQuantity + " , value: " + roseValue);
+console.log("Lily – unit price: " + lilyUnitPrice ," quantity: " + lilyQuantity + " , value: " + lilyValue);
+console.log("Tulip – unit price: " + tulipUnitPrice ," quantity: " + tulipQuantity + " , value: " + tulipValue);
+
